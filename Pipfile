@@ -1,18 +1,19 @@
 [[source]]
-url = "https://pypi.python.org/simple"
+url = "https://pypi.org/simple"
 verify_ssl = true
+name = "pypi"
 
 [packages]
-gunicorn = "*"
-decorator = "*"
-brotlipy = "*"
-gevent = "*"
-Flask = "*"
-meinheld = "*"
-werkzeug = ">=0.14.1"
+flask = "*"
 six = "*"
+werkzeug = "==2.0.3"
 flasgger = "*"
-pyyaml = {git = "https://github.com/yaml/pyyaml.git"}
+brotli = "*"
+decorator = "*"
+gunicorn = "*"
+gevent = "*"
 
 [dev-packages]
-rope = "*"
+
+[requires]
+python_version = "3.9"
